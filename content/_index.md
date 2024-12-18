@@ -7,8 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-    Efficient Deep Learning Optimization Lab
+      title: Efficient Deep Learning Optimization Lab
       image:
         filename: welcome.jpg
       text: |
