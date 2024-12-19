@@ -1,6 +1,6 @@
 ---
 title: Efficient Deep Learning Optimization Lab web site opened!
-date: 2024-12-25
+date: 2024-12-19
 image:
   focal_point: 'top'
 ---
