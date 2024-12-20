@@ -5,15 +5,49 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: markdown
     content:
-      title: Efficient Deep Learning Optimization Lab
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Efficient Deep Learning Optimization Lab** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+      text: ' # Deep Learning Optimization Lab
+      '
+    design:
+      columns: '1'
+
+  - block: markdown
+    content:
+      text: '
+<div style="margin: 10; display: flex; justify-content: center; align-items: center; height: 20vh;">
+    <a href="research/deep-learning-sw-optimization" target="_blank" class="hover-effect" style="position: relative; display: inline-block; transition: transform 0.3s ease;">
+        <img src="https://raw.githubusercontent.com/kmuhan/edlo_lab_page/refs/heads/main/images/screenshot.png" alt="Deep Learning SW Optimization" style="display: block;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 5px black;">
+            Deep Learning SW Optimization
+        </div>
+    </a>
+    <a href="research/deep-learning-hardware-design" target="_blank" class="hover-effect" style="position: relative; display: inline-block; transition: transform 0.3s ease;">
+        <img src="https://raw.githubusercontent.com/kmuhan/edlo_lab_page/refs/heads/main/images/screenshot.png" alt="Deep Learning Hardware Design" style="display: block;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 5px black;">
+            Deep Learning Hardware Design
+        </div>
+    </a>
+</div>
+
+<style>
+    .hover-effect:hover {
+        transform: scale(1.05); /* Slight zoom on hover */
+    }
+</style>
+      '
+    design:
+      columns: '1'
+  # - block: collection
+  #   id: research
+  #   content:
+  #     filters:
+  #       folders:
+  #         - research
+  #   design:
+  #     view: masonry
+  #     columns: '1'
+  #     flip_alt_rows: true
   
   - block: collection
     content:
@@ -34,25 +68,25 @@ sections:
       view: card
       columns: '1'
   
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: coders.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 
   - block: collection
     content:
@@ -65,14 +99,5 @@ sections:
         publication_type: 'article'
     design:
       view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
       columns: '1'
 ---

@@ -10,7 +10,7 @@ last_name: Kwon
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor
 
 # Organizations/Affiliations
 organizations:
