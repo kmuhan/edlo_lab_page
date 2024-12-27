@@ -1,7 +1,8 @@
 ---
 title: "Example paper"
 authors:
-- Eunji Kwon
+- admin
+- Hangyeol_Jung
 date: "2019-04-07T00:00:00Z"
 doi: ""
 
