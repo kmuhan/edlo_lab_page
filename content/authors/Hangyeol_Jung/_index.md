@@ -50,9 +50,9 @@ social:
     link: https://github.com/kmuhan
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: https://docs.google.com/document/d/1u5ZOumfnOU6sw_Ljsl99DYPOpv1tkxqGdI3NeTzM4X0/edit?usp=sharing
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -60,7 +60,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Undergrad Students
+  - Undergraduate Students
 ---
 
 Explanation for the Hangyeol Jung

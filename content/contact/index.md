@@ -8,17 +8,16 @@ sections:
   - block: contact
     content:
       title: Contact
-      text: |-
-        Welcome to Efficient Deep Learning Optimization Lab
-      email: test@example.org
+      text:
+      email: eunjikwon@kookmin.ac.kr
       phone: 888 888 88 88
       address:
         street: 450 Serra Mall
         city: Stanford
         region: CA
         postcode: '94305'
-        country: United States
-        country_code: US
+        country: Korea
+        country_code: KR
       coordinates:
         latitude: '37.4275'
         longitude: '-122.1697'

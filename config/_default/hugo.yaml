@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Efficient Deep Learning Optimization Lab # Website name
+title: Efficient Artificial Intelligence Computing Lab # Website name
 baseURL: "https://shimmering-medovik-aac707.netlify.app/" # Website URL
 
 ############################
