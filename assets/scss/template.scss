@@ -1,4 +1,9 @@
 // Make page header alignment consistent with widget page header alignment
+
+html, h1, h2, h3, a, p {
+  font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
 .universal-wrapper h1 {
   text-align: center;
 }
@@ -22,4 +27,12 @@ $font-size: 100px;
 
 .navbar-brand img {
   max-height: 100%;
+}
+
+.powered-by {
+  display: none;
+}
+
+.powered-by.copyright-license-text {
+  display: block;
 }

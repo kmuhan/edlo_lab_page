@@ -6,26 +6,26 @@ type: landing
 
 sections:
   - block: contact
+    form: false
     content:
       title: Contact
-      text:
       email: eunjikwon@kookmin.ac.kr
-      phone: 888 888 88 88
+      phone: 02-910-5047
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: Korea
+        street: 77, Jeongneung-ro
+        city: Seongbuk-gu
+        region: Seoul
+        postcode: '02707'
+        country: Republic of Korea
         country_code: KR
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '	37.611035490773'
+        longitude: '126.99457310623'
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
+      # appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -46,23 +46,23 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: contact.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 ---
