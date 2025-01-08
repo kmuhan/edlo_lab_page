@@ -17,9 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ""
-    org_name: ""
+    org_name: "Kookmin University"
     description: "Efficient Artificial Intelligence Computing Lab in Kookmin University."
-    twitter: "GetResearchDev"
   analytics:
     google_analytics: ""
     baidu_tongji: ""
@@ -44,8 +43,9 @@ header:
 # Site footer
 
 footer:
+  block: minimal
   copyright:
-    notice: "© {year} Efficient Artificial Intelligence Computing Lab."
+    notice: '© {year} Efficient Artificial Intelligence Computing Lab.'
     license:
       enable: false
       allow_derivatives: false

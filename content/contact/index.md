@@ -21,10 +21,10 @@ sections:
       coordinates:
         latitude: '	37.611035490773'
         longitude: '126.99457310623'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      directions: Enter Engineering Hall and take the stairs or elevator to Office 529 on Floor 5
+      # office_hours:
+      #   - 'Monday 10:00 to 13:00'
+      #   - 'Wednesday 09:00 to 10:00'
       # appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
